@@ -1,0 +1,8 @@
+a=int(input ())
+years=int(a/365)
+print("No of years is :"+ str(years))
+b=(a-years*365)
+weeks=int(b/7)
+print("No of weeks is :" + str(weeks))
+days=int(b-weeks*7)
+print("No of days is :" + str(days))
